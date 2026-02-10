@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>SavaDev.Lab.Processes</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Anna Savina</Authors>
+
+    <Description>
+      Small, focused .NET library for launching external processes with structured, observable, and cancellation-aware execution.
+    </Description>
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <PackageProjectUrl>https://github.com/AnnaSava/SavaDev.Lab</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AnnaSava/SavaDev.Lab</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <PackageTags>
+      process;launcher;tooling;observability;cli;infrastructure
+    </PackageTags>
+
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+
+    <IsPackable>true</IsPackable>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="" Visible="false" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>
